@@ -13,48 +13,54 @@
     <title>Document</title>
 </head>
 <body>
-   <header>
-       <a href="./index.html">
+   <header class="header">
+       <div class="container">
+           <div class="header-top">
+       <a class="header-link" href="./index.html">
            <img src="./images/logo.svg" alt="Лого" width="54" height="54">
-            <p>Байкальский отдых Турагентство</p>
+            <p class="header-txt">Байкальский отдых <span class="header-txt-span">Турагентство</span></p>
        </a>
-       <ul>
-           <li>
-               <a href="tel:89243541540">8-924-3-541-540</a>
+       <ul class="header-list-contact">
+           <li class="header-item">
+               <a class="contact-link" href="tel:89243541540">8-924-3-541-540</a>
            </li>
-           <li><a href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a>
+           <li class="header-item">
+               <a class="contact-link" href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a>
            </li>
        </ul>
-       <button type="button">Обратный звонок</button>
-
+       <button class="header-btn" type="button">Обратный звонок</button>
+            </div>
        <nav>
-           <ul>
-               <li>
-                   <a href="#">Бронирование</a>
+           <ul class="header-nav-list">
+               <li class="header-nav-item">
+                   <a class="header-nav" href="#">Бронирование</a>
                 </li>
-               <li>
-                   <a href="#">Экскурсии</a>
+               <li class="header-nav-item">
+                   <a class="header-nav" href="#">Экскурсии</a>
                </li>
-               <li>
-                   <a href="#">Туры на Байкал</a>
+               <li class="header-nav-item">
+                   <a class="header-nav" href="#">Туры на Байкал</a>
                </li>
-               <li>
-                   <a href="#">О Байкале</a>
+               <li class="header-nav-item">
+                   <a class="header-nav" href="#">О Байкале</a>
                </li>
-               <li>
-                   <a href="#">О нас</a>
+               <li class="header-nav-item">
+                   <a class="header-nav" href="#">О нас</a>
                </li>
            </ul>
        </nav>
+    </div>
    </header>
 
    <main>
        <!-- Секция Герой -->
-       <section>
-           <h1>Путешествия по Байкалу</h1>
-           <p>Туры по самому красивому месту России. Поехали с нами за новыми впечатлениями!</p>
-           <a href="#">Подобрать тур</a>
-           <a href="#"></a>
+       <section class="hero">
+           <div class="container">
+                <h1 class="hero-title">Путешествия по Байкалу</h1>
+                <p class="hero-txt">Туры по самому красивому месту России. Поехали с нами за новыми впечатлениями!</p>
+                <a class="hero-btn" href="#">Подобрать тур</a>
+                <a class="hero-link" href="#"></a>
+           </div>
        </section>
        <!-- Секция Категории -->
        <section class="categories">
