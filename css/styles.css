@@ -306,6 +306,7 @@ margin-right: auto;
 .title-position {
   display: flex;
   align-items: center;
+  margin-bottom: 59px;
 }
 .galery-list-btn {
   display: flex;
